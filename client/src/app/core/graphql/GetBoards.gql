@@ -1,0 +1,7 @@
+query GetBoards {
+  boards {
+    createAt
+    id
+    title
+  }
+}

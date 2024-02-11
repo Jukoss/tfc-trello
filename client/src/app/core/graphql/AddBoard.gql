@@ -1,0 +1,8 @@
+
+mutation AddBoard($title: String) {
+  insert_boards_one(object: { title: $title }) {
+    createAt
+    id
+    title
+  }
+}

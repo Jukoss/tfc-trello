@@ -1,0 +1,19 @@
+query GetBoardById($id: uuid!) {
+  boards_by_pk(id: $id) {
+    createAt
+    id
+    title
+    columns {
+      createAt
+      id
+      order
+      title
+      carts {
+        createAt
+        id
+        order
+        title
+      }
+    }
+  }
+}

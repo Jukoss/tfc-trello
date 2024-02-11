@@ -1,0 +1,9 @@
+
+mutation AddColumn($boardId: uuid!, $title: String, $order: numeric ) {
+  insert_columns_one(object: { boardId: $boardId, title: $title, order: $order }) {
+    createAt
+    id
+    order
+    title
+  }
+}

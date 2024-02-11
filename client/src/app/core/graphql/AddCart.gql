@@ -1,0 +1,10 @@
+
+mutation AddCart($columnId: uuid!, $title: String, $order: numeric) {
+  insert_carts_one(object: {columnId: $columnId, title: $title, order: $order }) {
+    columnId
+    createAt
+    id
+    order
+    title
+  }
+}
