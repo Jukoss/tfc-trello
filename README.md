@@ -19,6 +19,12 @@ $ npm install
 ```
 $ docker compose up
 ```
+```
+$ npx hasura metadata apply
+```
+```
+$ npx hasura migrate apply
+```
 
 ## Run
 ```
