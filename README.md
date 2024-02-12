@@ -32,7 +32,7 @@ $ npm run start
 ```
 Open [http://localhost:9695](http://localhost:9695) to view it in the browser.
 
-If you get error: `You have been redirected because your GraphQL Engine metadata is in an inconsistent state` click *Delete all* (on hasura console http://localhost:9695) and ran again:
+If you get error: `You have been redirected because your GraphQL Engine metadata is in an inconsistent state` click `Delete all` (on hasura console http://localhost:9695) and run again:
 ```
 $ npx hasura metadata apply
 ```
